@@ -1,0 +1,241 @@
+body{ 
+    width: 100%;
+    margin: 0 auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.section__top{
+    margin: 0;
+    height: 800px;
+    
+}
+.header__container{
+    width: 100%;
+    height: 60px;
+    background-color: #282828;
+    font-size: 24px;
+    text-align: center;
+    z-index: 10000;
+}   
+.header__nav a{
+    line-height: 2.5em;
+    margin: 15px;
+    text-decoration: none;
+    color: aliceblue;
+}
+p{
+    font-weight: 200;
+    text-align: center;
+    font-size: 30px;
+    color: #3e3e3e;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: #3e3e3e;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+h3{
+    font-weight: 400;
+    text-align: center;
+    font-size: 30px;
+    color: #3e3e3e;
+    
+}
+.inner__container{
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.img{
+    margin: 0;
+    border-radius: 100%;
+}
+.msg {
+    width: 700px;
+    font-size: 23px;
+    line-height: 2.0;
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
+    justify-content: baseline;
+}
+.inner__container{
+    padding-top: 100px;
+}
+.inner__img{
+    text-align: center;
+    margin: 15px;
+}
+.inner__mesagge {
+    display: flex;
+    align-content: center;
+    width: 1220px;
+    margin: 0;
+    font-weight: 300;
+    
+}
+.clicker{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    font-size: 25px;
+    color: #fff;
+    display: inline-block;
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    line-height: 4.5;
+    border-radius: 10px;
+    background-color: #43B3E0;;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+.section__work{
+    height: 800px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    width: 980px;
+    
+}
+.box1{
+    margin: 10px;
+    width: 33%;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.box2{
+    margin: 10px;
+    width: 33%;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.box3{
+    margin: 10px;
+    width: 33%;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.img{
+    text-align: center;
+    background-color: #fff;
+}
+.img_msg{
+    font-weight: 400;
+    font-size: 15px;
+}
+.center__button{
+    font-size: 25px;
+    color: #fff;
+    display: inline-block;
+    width: 450px;
+    height: 100px;
+    text-align: center;
+    line-height: 4.5;
+    border-radius: 10px;
+    background-color: #43B3E0;;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.portfolio__clicker{
+    display: flex;
+    justify-content: center;
+}
+.up__portfolio{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    width: 990px;
+}
+.left__up{
+    margin: 10px;
+    width: 33%;
+
+    border: 1px solid gray;
+}
+.pic01{
+    margin: 0 auto;
+    text-align: center;
+}
+.center__up{
+    margin: 10px;
+    width: 33%;
+    border: 1px solid gray;
+}
+.pic02{
+    margin: 0 auto;
+    text-align: center;
+}
+.right__up{
+    margin: 10px;
+    width: 33%;
+    border: 1px solid gray;
+}
+.pic03{
+    margin: 0 auto;
+    text-align: center;
+}
+.down__portfolio{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    width: 990px;
+}
+.pic04{
+    margin: 0 auto;
+    text-align: center;
+}
+.pic05{
+    margin: 0 auto;
+    text-align: center;
+}
+.pic06{
+    margin: 0 auto;
+    text-align: center;
+}
+.contact__clicker{
+    display: flex;
+    justify-content: center;
+}
+.contact__button{
+    font-size: 25px;
+    color: #fff;
+    display: inline-block;
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    line-height: 4.5;
+    border-radius: 10px;
+    background-color: #43B3E0;;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+.contact{
+    height: 850px;
+    background-color: #282828;
+    margin: 100px 0 auto;
+}
+.header__inner{
+    padding-top: 50px;
+}
+
