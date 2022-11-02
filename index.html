@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Midterm project</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="image/">
 </head>
 <body>
     <section class="section__top">
@@ -13,10 +14,10 @@
             <div class="header">
                 <div class="header__container">
                     <div class="header__nav">
-                        <a href="#top">Top</a>
-                        <a href="#work">Work</a>
-                        <a href="#portfolio">Portfolio</a>
-                        <a href="#contact">Contact</a>
+                        <a id="section__top" href="#section__top">Top</a>
+                        <a href="#section__work">Work</a>
+                        <a href="#section__portfolio">Portfolio</a>
+                        <a href="#secrtion__contact">Contact</a>
                     </div>
                 </div>
             </div>
@@ -29,7 +30,7 @@
                         <img class="img" src="image.jpg" alt="inner__img">
                     </div>
                     <div class="inner__message">
-                        <header>
+                        <header class="header">
                             <h1>Hi. I'm Jane Doe.</h1>
                         </header>
                         <p class="msg">And this is Miniport, a free, fully responsive HTML5 site template designed by AJ for HTML5 UP & released under the CCA license.</p>
@@ -127,7 +128,7 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section class="section__contact">
         <div class="container">
             <div class="contact__container">
                 <div class="header">
@@ -136,11 +137,39 @@
                         <h3 style="color: #fff;">Ornare nulla proin odio consequat sapien vestibulum ipsum.</h3>
                     </div>
                 </div>
+                <div class="up__contact">
+                    <div class="up__name">   
+                        <input type="name" placeholder="Name" name="name" >
+                    </div>
+                    <div class="up__email">
+                        <input type="email" placeholder="Email" name="email" > 
+                     </div>
+                </div>
+                <div class="down__contact">
+                    <div class="down__message">
+                        <input type="message" placeholder="Message" name="message" > 
+                    </div>
+                </div>
+                <div class="send">
+                    <div class="send__clicker">
+                        <a href="#" class="send__button">Send message</a>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </section>
     <script>
-        
+        section__top.addEventListener('click', function() {
+        content.innerHTML = "Надпись 1";
+});
+button2.addEventListener('click', function() {
+        content.innerHTML = "Надпись 2";
+});
+button3.addEventListener('click', function() {
+        content.innerHTML = "Надпись 3";
+});
     </script>
+   
 </body>
 </html>

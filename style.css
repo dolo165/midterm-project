@@ -3,12 +3,16 @@ body{
     margin: 0 auto;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
+
 .container{
     width: 100%;
     margin: 0 auto;
 }
 .section__top{
-    margin: 0;
+    margin: 0 auto;
     height: 800px;
     
 }
@@ -18,7 +22,7 @@ body{
     background-color: #282828;
     font-size: 24px;
     text-align: center;
-    z-index: 10000;
+    
 }   
 .header__nav a{
     line-height: 2.5em;
@@ -26,6 +30,7 @@ body{
     text-decoration: none;
     color: aliceblue;
 }
+
 p{
     font-weight: 200;
     text-align: center;
@@ -65,8 +70,6 @@ h3{
     line-height: 2.0;
     text-align: left;
     margin: 0 auto;
-    display: flex;
-    justify-content: baseline;
 }
 .inner__container{
     padding-top: 100px;
@@ -230,12 +233,84 @@ h3{
     text-transform: uppercase;
     padding-bottom: 40px;
 }
-.contact{
-    height: 850px;
-    background-color: #282828;
+.section__contact{
+    width: 100%;
+    height: 950px;
+    background-color: #303030;
     margin: 100px 0 auto;
 }
 .header__inner{
     padding-top: 50px;
 }
-
+input[type=name], input[type=email] {
+    padding: 15px 60px;
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    background: #282828;
+    margin: 10px auto;
+    font-size: 20px;
+    color: #fff;
+    -moz-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
+	-webkit-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
+	-ms-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
+	transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
+	
+}
+input[type=name]:focus, input[type=email]:focus {
+    background-color: #fff;
+    outline: none;
+    font-size: 20px;
+    color: #303030;
+}
+.up__name, .up__email{
+    
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+}
+input[type=message] {
+    padding: 5px 60px;
+    height: 240px;
+    width: 500px;
+    border: none;
+    border-radius: 10px;
+    background: #282828;
+    margin: 10px auto;
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+    display: flex;
+    -moz-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
+	-webkit-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
+	-ms-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
+	transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
+	-webkit-appearance: none;
+}
+input[type=message]:focus {
+    background-color: #fff;
+    outline: none;
+    font-size: 20px;
+    color: #303030;
+    text-align: left;
+}
+.send__button{
+    font-size: 25px;
+    color: #fff;
+    display: inline-block;
+    width: 250px;
+    height: 70px;
+    text-align: center;
+    line-height: 4.5;
+    border-radius: 10px;
+    background-color: #43B3E0;;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+.send{
+    display: flex;
+    justify-content: center;
+}
